@@ -1,0 +1,86 @@
+@charset "UTF-8";
+body {
+  background-color: #ffffff;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body form {
+  margin: auto;
+}
+body form .container {
+  width: 400px;
+  height: 370px;
+  margin: 50px auto;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: inset 1px 1px 10px #c4c4c4, inset -1px -1px 10px #ffffff;
+}
+body form .container h1 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #2f2f2f;
+}
+body form .container label {
+  font-size: 18px;
+  color: #2f2f2f;
+}
+body form .container input[type=email], body form .container input[type=text], body form .container input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  font-size: 16px;
+}
+body form .container input[type=email]:focus, body form .container input[type=text]:focus, body form .container input[type=password]:focus {
+  background-color: #ddd;
+  outline: 1px solid #b33348;
+}
+body form .container input[type=submit] {
+  width: 97%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  color: white;
+  background: #b33348;
+  border-radius: 5px;
+  border: 1px solid #b33348;
+  cursor: pointer;
+  font-size: 18px;
+}
+body form .container input[type=submit]:hover {
+  background: #c94057;
+}
+body form #message {
+  width: 500px;
+  display: none;
+  background: rgba(241, 241, 241, 0.9450980392);
+  color: #000;
+  position: relative;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10px;
+}
+body form #message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+body form #message .valid {
+  color: green;
+}
+body form #message .valid:before {
+  position: relative;
+  left: -35px;
+  content: "✓";
+}
+body form #message .invalid {
+  color: red;
+}
+body form #message .invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}/*# sourceMappingURL=styles.css.map */
